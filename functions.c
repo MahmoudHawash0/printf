@@ -65,7 +65,7 @@ int print_string(va_list types, char buffer[],
 		}
 		else
 		{
-			for (i = width - length; i > 0; i--)
+			for (x = width - length; x > 0; x--)
 				write(1, " ", 1);
 			write(1, &str[0], length);
 			return (width);
